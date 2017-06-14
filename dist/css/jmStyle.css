@@ -1,0 +1,380 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.bgF0 {
+	background: #f0f0f0;
+}
+/* ------------------------------------- wjwbar start ------------------------------------- */
+.share_topbar{ background-color:#fff; height:30px;background: #333333; width:100%; line-height:30px; font:Tahoma,Arial,'\5B8B\4F53',sans-serif; color:#555; font-size:12px; clear:both;}
+.share_topbar a, .share_topbar a:link, .share_topbar a:visited{text-decoration: none; color: #808080;}
+.share_topbar a:hover { color:#fff;}
+
+.share_topbar_main{ width:1200px; margin:auto;}
+.mobile{ float:left; height:16px; line-height:16px; padding:0 12px 0 16px; margin:7px 0; background:url(http://www.wjw.cn/Content/images/share01.png) no-repeat; background-position:0 -7px; border-right:1px #474747 solid;}
+.account_sign_register{ float:left; }
+.account_sign_register ul li{ float:left;}
+.account_signin{ float:left; padding:0 0 0 14px;}
+.account_signup{ float:left; padding:0 0 0 14px;}
+#wjwbar .topnav{ float:right; _width: 530px;}
+/* ------------------------------------- wjwbar end ------------------------------------- */
+
+/* ------------------------------------- exh-header start ------------------------------------- */
+.exh-header {
+	height: 95px;
+	background: #fff;
+}
+.exh-header .logo {
+	/*width: 174px;*/
+	height: 45px;
+	line-height: 45px;
+	margin-top: 26px;
+}
+.exh-header .logo a {
+	display: inline-block;
+	float: left;
+	width: 174px;
+	height: 45px;
+	background: url(../images/icon.png) no-repeat 0 0;
+}
+.exh-header .logo p {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	margin-left: 25px;
+}
+.exh-header .h-search {
+	width: 750px;
+}
+.exh-header .hs-top {
+	width: 750px;
+	margin-top: 18px;
+	margin-bottom: 8px;
+	_margin-left: -15px;
+}
+.exh-header .hs-top li{
+	float: left;
+	margin-left: 13px;
+}
+.exh-header .hst-act {
+	color: #ff2200;
+}
+.exh-header .hst-line {
+	color: #e6e6e6;
+}
+.exh-header .hs-main {
+	float: left; 
+	width:750px;
+	margin-top: 28px;
+}
+.exh-header .h-search input {
+	width: 518px;
+	height: 36px;
+	line-height: 38px;
+	border: 2px solid #e3e3e3;
+	border-right: none;
+	background: #FFF;
+	float: left;
+	padding-left: 10px;
+}
+.exh-header .hs-main a.sousou {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #ff5e00;
+	color: #ffffff;
+	float: left;
+	font-size: 14px;
+}
+.hs-main a.sousou:hover {
+	text-decoration: none;
+	background: #f65b01;
+}
+.hs-main a.publish {
+	display: inline-block;
+	width: 98px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #e3e3e3;
+	text-align: center;
+	background: #ffffff;
+	color: #545454;
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+}
+.hs-main a.publish:hover {
+	text-decoration: none;
+	color: #ff5e00;
+}
+/* ------------------------------------- exh-header end ------------------------------------- */
+
+/* ------------------------------------- exh-info start ------------------------------------- */
+.exh-info {
+	padding-top: 49px;
+	height: 212px;
+	background: url(../images/exhibitionBg.png) no-repeat top center fixed;
+	position: relative;
+}
+.exh-info-hd {
+	border: 1px solid rgba(255, 255, 255, .4);
+	height: 114px;
+	position: relative;
+}
+.exh-info-hd .title {
+	background: #27292f;
+	position: absolute;
+	top: -28px;
+	left: 22px;
+	padding: 0 50px 0 12px;
+}
+.exh-info-hd .title h2 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+}
+.exh-info-hd .title span {
+	color: #4ec9ff;
+	font-size: 12px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.exh-info-hd .title i {
+	width: 29px;
+	height: 32px;
+	background-image: url(../images/icon.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-top: 11px;
+	margin-left: 18px;
+}
+.exh-info-hd .title i.i-exh {
+	background-position: 0 -80px;
+}
+.exh-info-main {
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 32px;
+	width: 486px;
+}
+.exh-info-main span {
+	margin-right: 4px;
+}
+.exh-info-r {
+	position: absolute;
+	right: 28px;
+	top: 20px;
+}
+.exh-info-detail {
+	width: 422px;
+	height: 69px;
+	background: url(../images/infoBg.png) no-repeat center;
+}
+.exh-info-det-item {
+	text-align: center;
+	padding-top: 9px;
+}
+.exh-info-det-item01 {
+	width: 124px;
+	margin-left: 10px;
+}
+.exh-info-det-item02 {
+	width: 104px;
+	margin-left: 19px;
+}
+.exh-info-det-item03 {
+	width: 124px;
+	margin-left: 27px;
+}
+.exh-info-det-item .txt {
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+}
+.exh-info-det-item .txt span {
+	font-size: 12px;
+	vertical-align: top;
+}
+.exh-info-det-item .label {
+	font-size: 12px;
+	color: #a3cbff;
+}
+.exh-info-concat {
+	display: inline-block;
+	padding: 0 24px;
+	background: #0a74ff;
+	border-radius: 16px;
+	color: #fff;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 20px;
+	margin-left: 30px;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.exh-info-concat:hover {
+	background-color: #0d68e0;
+}
+.exh-nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	line-height: 45px;
+	background: #262a2e;
+}
+.exh-nav li {
+	float: left;
+}
+.exh-nav-1 li a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 26px;
+	display: block;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.exh-nav-1 li {
+	margin-right: 10px;
+}
+.exh-nav-1 li a:hover,
+.exh-nav-1 li.cur a {
+	background: #0a74ff;
+}
+.exh-nav-2 {
+	margin-right: 8px;
+}
+.exh-nav-2 li {
+	margin: 0 12px;
+}
+.exh-nav-2 li a {
+	color: #ccc;
+	font-size: 14px;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.exh-nav-2 li a:hover {
+	color: #fff;
+}
+/* ------------------------------------- exh-info end ------------------------------------- */
+
+/* ------------------------------------- exh-bnr start ------------------------------------- */
+.exh-bnr {
+	height: 700px;
+	padding-top: 58px;
+	background: url(../images/exProBg.png) no-repeat center;
+}
+.exh-bnr-main {
+	width: 1093px;
+	margin: 0 auto;
+	position: relative;
+}
+.exh-bnr-item {
+	padding: 20px;
+	border: 3px solid #2083ff;
+	background: #fff;
+	position: absolute;
+}
+.exh-bnr-item01 {
+	left: 0px;
+	top: 51px;
+}
+.exh-bnr-item02 {
+	left: 344px;
+	top: 0px;
+	z-index: 1;
+}
+.exh-bnr-item03 {
+	left: 746px;
+	top: 51px;
+}
+.w301 {
+	width: 301px;
+	height: 408px;
+}
+.w359 {
+	width: 359px;
+	height: 480px;
+}
+.exh-bnr-item .pic {
+	display: block;
+}
+.w301.exh-bnr-item .pic {
+	height: 301px;
+}
+.w359.exh-bnr-item .pic {
+	height: 359px;
+}
+.exh-bnr-item .pic img {
+	width: 100%;
+	height: 100%;
+}
+.exh-bnr-item .txt {
+	font-size: 14px;
+	color: #333;
+	margin-top: 12px;
+	display: block;
+}
+.exh-bnr-item .txt:hover {
+	color: #0a74ff;
+}
+.exh-bnr-bt {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+.exh-bnr-bt .pri {
+	font-size: 16px;
+	color: #167eff;
+}
+.exh-bnr-bt .pri span {
+	color: #167eff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.exh-bnr-item02 .exh-bnr-bt .pri {
+	font-size: 24px;
+	line-height: 34px;
+}
+.exh-bnr-item02 .exh-bnr-bt span {
+	font-size: 30px;
+}
+.btn {
+	display: inline-block;
+    padding: 0 24px;
+    background: #0a74ff;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-left: 30px;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.btn:hover {
+	background-color: #0d68e0;
+}
+.exh-bnr-bt .btn {
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 20px;
+}
+.exh-bnr-item02 .btn {
+	font-size: 16px;
+	height: 34px;
+	line-height: 34px;
+}
+/* ------------------------------------- exh-bnr end ------------------------------------- */
+.jm-block {
+	height: 180px;
+	background: url(../images/exBoxHd.png) no-repeat center;
+}

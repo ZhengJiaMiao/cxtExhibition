@@ -26,6 +26,7 @@
     "gulp-order": "^1.1.1",
     "gulp-rename": "^1.2.2",
     "gulp-rev": "^7.1.2",
+    "gulp-ruby-sass": "^2.1.1",
     "gulp-uglify": "^3.0.0",
     "install": "^0.10.1",
     "jshint": "^2.9.4",
