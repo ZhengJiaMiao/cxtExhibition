@@ -289,19 +289,13 @@
 					</div>
 				</div>
 				<div class="factory-swiper l">
-					<a class="arrow-left" href="#"></a> 
-				    <a class="arrow-right" href="#"></a>
+					<a class="arrow-left" href="javascript:void(0);"></a> 
+				    <a class="arrow-right" href="javascript:void(0);"></a>
 				    <div class="swiper-container">
 				      <div class="swiper-wrapper">
 				        <div class="swiper-slide"> <img src="images/factory01.png"> </div>
 				        <div class="swiper-slide"> <img src="images/factory01.png"> </div>
 				        <div class="swiper-slide"> <img src="images/factory01.png"> </div>
-				        <div class="swiper-slide">
-				          <div class="content-slide">
-				            <p class="title">Slide with HTML</p>
-				            <p>You can put any HTML inside of slide with any layout, not only images, even another Swiper!</p>
-				          </div>
-				        </div>
 				      </div>
 				    </div>
 				    <div class="pagination clearfix">
@@ -312,6 +306,38 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			var swiper1 = new Swiper('.factory-swiper .swiper-container', {
+	    		autoplay: 2500,
+				effect : 'fade',
+				onSlideChangeEnd: function(swiper){
+					console.log(swiper1.activeIndex); 
+			       $(".factory-swiper .pagination span").eq(swiper1.activeIndex).addClass('cur').siblings().removeClass("cur");
+			    }
+			});
+			$('.factory-swiper .arrow-left').on('click', function(e){
+			    e.preventDefault();
+			    swiper1.swipePrev();
+			});
+			$('.factory-swiper .arrow-right').on('click', function(e){
+			    e.preventDefault();
+			    swiper1.swipeNext();
+			});
+		    $('.factory-swiper .swiper-container').mouseenter(function() {
+		    	swiper1.stopAutoplay();
+		    }).mouseleave(function() {
+		    	swiper1.startAutoplay();
+		    });
+		    $(".factory-swiper .pagination span").on('touchstart mousedown',function(e){
+			    e.preventDefault();
+			    $(".factory-swiper .pagination span.cur").removeClass('cur');
+			    $(this).addClass('cur');
+			    swiper1.swipeTo( $(this).index());
+			});
+			$(".factory-swiper .pagination span").click(function(e){
+			    e.preventDefault();
+			});
+		</script>
 		<!-- factory-authentic end -->
 		
 		<div class="factory-zs">

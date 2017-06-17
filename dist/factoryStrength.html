@@ -250,7 +250,7 @@
 		<!-- factory-authentic start -->
 		<div class="factory-authentic">
 			<div class="container clearfix">
-				<div class="factory-inner">
+				<div class="factory-inner l">
 					<div class="factory-hd">工厂认证</div>
 					<div class="authentic-box clearfix">
 						<div class="authentic-row clearfix">
@@ -263,22 +263,22 @@
 								<p class="zhuying">主营：<span>金属工艺品</span> / <span>打桩机</span></p>
 							</div>
 						</div>
-						<div class="authentic-row clearfix">
-							<div class="l authentic-item">
+						<div class="authentic-row authentic-sign clearfix">
+							<div class="l authentic-item authentic-item01">
 								<i class="l i-detail i-detail01"></i>
 								<div class="l">
 									<p class="label">厂房面积</p>
-									<p class="txt"><span class="num">1000</span><span class="unit">m2</span></p>
+									<p class="txt"><span class="num">1000</span><span class="unit">m<sup>2</sup></span></p>
 								</div>
 							</div>
-							<div class="l authentic-item">
+							<div class="l authentic-item authentic-item02">
 								<i class="l i-detail i-detail02"></i>
 								<div class="l">
 									<p class="label">员工人数</p>
 									<p class="txt"><span class="num">20</span><span class="unit">人</span></p>
 								</div>
 							</div>
-							<div class="l authentic-item">
+							<div class="l authentic-item authentic-item03">
 								<i class="l i-detail i-detail03"></i>
 								<div class="l">
 									<p class="label">设备</p>
@@ -288,9 +288,145 @@
 						</div>
 					</div>
 				</div>
+				<div class="factory-swiper l">
+					<a class="arrow-left" href="javascript:void(0);"></a> 
+				    <a class="arrow-right" href="javascript:void(0);"></a>
+				    <div class="swiper-container">
+				      <div class="swiper-wrapper">
+				        <div class="swiper-slide"> <img src="images/factory01.png"> </div>
+				        <div class="swiper-slide"> <img src="images/factory01.png"> </div>
+				        <div class="swiper-slide"> <img src="images/factory01.png"> </div>
+				      </div>
+				    </div>
+				    <div class="pagination clearfix">
+				    	<span class="l cur">厂房实拍</span>
+				    	<span class="l">厂房实拍</span>
+				    	<span class="l">厂房实拍</span>
+				    </div>
+				</div>
 			</div>
 		</div>
+		<script>
+			var swiper1 = new Swiper('.factory-swiper .swiper-container', {
+	    		autoplay: 2500,
+				effect : 'fade',
+				onSlideChangeEnd: function(swiper){
+					console.log(swiper1.activeIndex); 
+			       $(".factory-swiper .pagination span").eq(swiper1.activeIndex).addClass('cur').siblings().removeClass("cur");
+			    }
+			});
+			$('.factory-swiper .arrow-left').on('click', function(e){
+			    e.preventDefault();
+			    swiper1.swipePrev();
+			});
+			$('.factory-swiper .arrow-right').on('click', function(e){
+			    e.preventDefault();
+			    swiper1.swipeNext();
+			});
+		    $('.factory-swiper .swiper-container').mouseenter(function() {
+		    	swiper1.stopAutoplay();
+		    }).mouseleave(function() {
+		    	swiper1.startAutoplay();
+		    });
+		    $(".factory-swiper .pagination span").on('touchstart mousedown',function(e){
+			    e.preventDefault();
+			    $(".factory-swiper .pagination span.cur").removeClass('cur');
+			    $(this).addClass('cur');
+			    swiper1.swipeTo( $(this).index());
+			});
+			$(".factory-swiper .pagination span").click(function(e){
+			    e.preventDefault();
+			});
+		</script>
 		<!-- factory-authentic end -->
+		
+		<div class="factory-zs">
+			<div class="container clearfix">
+				<div class="factory-inner">
+					<div class="factory-hd">企业资质</div>
+					<div class="certificate-box">
+						<a class="arrow-left arrow-btn" href="#"></a> 
+						<a class="arrow-right arrow-btn" href="#"></a>
+						<div class="swiper-container">
+							<div class="swiper-wrapper clearfix">
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书1</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书2</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书3</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书4</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书5</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书6</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="certificate-item">
+										<h6>产品证书7</h6>
+										<div class="decorate">
+											<img src="images/certificate.png" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+						  var mySwiper1 = new Swiper('.certificate-box .swiper-container',{
+						    paginationClickable: true,
+						    slidesPerView: 4,
+						    spaceBetween: 20,
+						    loop: true
+						  });
+						  $('.certificate-box .arrow-left').on('click', function(e){
+						    e.preventDefault()
+						    mySwiper1.swipePrev()
+						  })
+						  $('.certificate-box .arrow-right').on('click', function(e){
+						    e.preventDefault()
+						    mySwiper1.swipeNext()
+						  })
+						 </script>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- exh-ft start -->
 		<div class="exh-ft">
