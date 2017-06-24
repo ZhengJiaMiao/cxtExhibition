@@ -1,3 +1,259 @@
 .bgF0 {
 	background: #f0f0f0;
 }
+/* ------------------------------------- wjwbar start ------------------------------------- */
+.share_topbar {
+	background-color: #333; 
+	color:#555;
+}
+.share_topbar a, .share_topbar a:link, .share_topbar a:visited{color: #808080;text-decoration: none;}
+.share_topbar a:hover { color:#fff;}
+.mobile{ background-image:url(http://www.wjw.cn/Content/images/share01.png); background-position:0 -7px;  border-right-color:#474747;border-right-style: solid;}
+/* ------------------------------------- wjwbar end ------------------------------------- */
+
+/* ------------------------------------- exh-header start ------------------------------------- */
+.exh-header {
+	background-color: #fff;
+}
+.exh-header .logo a {
+	background-image: url(../images/icon.png);
+	background-position: 0 0;
+}
+.exh-header .logo p {
+	color: #333;
+}
+.exh-header .hst-act {
+	color: #ff2200;
+}
+.exh-header .hst-line {
+	color: #e6e6e6;
+}
+
+.h-search input {
+	border-style: solid;
+	border-color: #e3e3e3;
+	background: #FFF;
+}
+.hs-main a.sousou {
+	background-color: #ff5e00;
+	color: #ffffff;
+}
+.hs-main a.publish {
+	border-style: solid;
+	border-color: #e3e3e3;
+	background-color: #fff;
+	color: #545454;
+}
+.hs-main a.publish:hover {
+	color: #ff5e00;
+}
+/* ------------------------------------- exh-header end ------------------------------------- */
+
+/* ------------------------------------- exh-info start ------------------------------------- */
+.exh-info {
+	background-image: url(../images/exhibitionBg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+}
+.exh-info-hd {
+	border-style: solid;
+	border-color: rgba(255, 255, 255, .4);
+}
+.exh-info-hd .title {
+	background-color: #27292f;
+}
+.exh-info-hd .title h2 {
+	color: #fff;
+	font-weight: bold;
+}
+.exh-info-hd .title span {
+	color: #4ec9ff;
+}
+.exh-info-hd .title i {
+	background-image: url(../images/icon.png);
+	vertical-align: middle;
+}
+.exh-info-hd .title i.i-exh {
+	background-position: 0 -80px;
+}
+.exh-info-main {
+	color: #fff;
+}
+.exh-info-detail {
+	background-image: url(../images/infoBg.png);
+	background-position: center;
+}
+.exh-info-det-item .txt {
+	color: #fff;
+	font-weight: bold;
+}
+.exh-info-det-item .txt span {
+	vertical-align: top;
+}
+.exh-info-det-item .label {
+	color: #a3cbff;
+}
+.exh-info-concat {
+	background-color: #0a74ff;
+	border-radius: 16px;
+	color: #fff;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.exh-info-concat:hover {
+	background-color: #0d68e0;
+}
+.exh-nav {
+	background-color: #262a2e;
+}
+.exh-nav-1 li a {
+	color: #fff;
+	font-weight: bold;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.exh-nav-1 li a:hover,
+.exh-nav-1 li.cur a {
+	background-color: #0a74ff;
+}
+.exh-nav-2 li a {
+	color: #ccc;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.exh-nav-2 li a:hover {
+	color: #fff;
+}
+/* ------------------------------------- exh-info end ------------------------------------- */
+
+/* ------------------------------------- exh-bnr start ------------------------------------- */
+.exh-bnr {
+	height: 700px;
+	padding-top: 58px;
+	background: url(../images/exProBg.png) no-repeat center;
+}
+.exh-bnr-main {
+	width: 1091px;
+	margin: 0 auto;
+	position: relative;
+}
+.exh-bnr-main .pro-item {
+	position: absolute;
+}
+.pro-item {
+	padding: 20px;
+	border: 3px solid #2083ff;
+	background: #fff;
+	position: relative;
+	width: 298px;
+	height: 408px;
+}
+.pro-item01 {
+	left: 0px;
+	top: 51px;
+}
+.pro-item02 {
+	left: 343px;
+	top: 0px;
+	z-index: 1;
+}
+.pro-item03 {
+	left: 745px;
+	top: 51px;
+}
+.w300 {
+	width: 300px;
+	height: 408px;
+}
+.w359 {
+	width: 359px;
+	height: 480px;
+}
+.products-inner .pro-item {
+	width: 260px;
+	height: 350px;
+	padding: 10px 10px 20px;
+	border: 1px solid #dedede;
+	margin-right: 24px;
+	margin-bottom: 20px;
+}
+.products-inner {
+	margin-right: -24px;
+}
+.pro-item .pic {
+	display: block;
+}
+.w301.pro-item .pic {
+	height: 301px;
+}
+.w359.pro-item .pic {
+	height: 359px;
+}
+.pro-item .pic img {
+	width: 100%;
+	height: 100%;
+}
+.pro-item .txt {
+	font-size: 14px;
+	color: #333;
+	margin-top: 12px;
+	display: block;
+}
+.pro-item .txt:hover {
+	color: #0a74ff;
+}
+.pro-bt {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+.pro-bt .pri {
+	font-size: 16px;
+	color: #167eff;
+}
+.pro-bt .pri span {
+	color: #167eff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.pro-item02 .pro-bt .pri {
+	font-size: 24px;
+	line-height: 34px;
+}
+.pro-item02 .pro-bt span {
+	font-size: 30px;
+}
+.btn {
+	display: inline-block;
+    padding: 0 24px;
+    background: #0a74ff;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-left: 30px;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.btn:hover {
+	background-color: #0d68e0;
+}
+.pro-bt .btn {
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 20px;
+}
+.pro-item02 .btn {
+	font-size: 16px;
+	height: 34px;
+	line-height: 34px;
+}
+.pro-box .pro-item {
+	margin-right: 44px;
+}
+/* ------------------------------------- exh-bnr end ------------------------------------- */

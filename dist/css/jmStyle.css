@@ -2,16 +2,11 @@
 	width: 1200px;
 	margin: 0 auto;
 }
-.bgF0 {
-	background: #f0f0f0;
-}
 /* ------------------------------------- wjwbar start ------------------------------------- */
-.share_topbar{ background-color:#fff; height:30px;background: #333333; width:100%; line-height:30px; font:Tahoma,Arial,'\5B8B\4F53',sans-serif; color:#555; font-size:12px; clear:both;}
-.share_topbar a, .share_topbar a:link, .share_topbar a:visited{text-decoration: none; color: #808080;}
-.share_topbar a:hover { color:#fff;}
+.share_topbar{ height:30px;width:100%; line-height:30px; font:Tahoma,Arial,'\5B8B\4F53',sans-serif;  font-size:12px; clear:both;}
 
 .share_topbar_main{ width:1200px; margin:auto;}
-.mobile{ float:left; height:16px; line-height:16px; padding:0 12px 0 16px; margin:7px 0; background:url(http://www.wjw.cn/Content/images/share01.png) no-repeat; background-position:0 -7px; border-right:1px #474747 solid;}
+.mobile{ float:left; height:16px; line-height:16px; padding:0 12px 0 16px; margin:7px 0; background-repeat: no-repeat; border-right-width:1px;}
 .account_sign_register{ float:left; }
 .account_sign_register ul li{ float:left;}
 .account_signin{ float:left; padding:0 0 0 14px;}
@@ -22,7 +17,6 @@
 /* ------------------------------------- exh-header start ------------------------------------- */
 .exh-header {
 	height: 95px;
-	background: #fff;
 }
 .exh-header .logo {
 	/*width: 174px;*/
@@ -35,12 +29,11 @@
 	float: left;
 	width: 174px;
 	height: 45px;
-	background: url(../images/icon.png) no-repeat 0 0;
+	background-repeat: no-repeat;
 }
 .exh-header .logo p {
 	font-size: 20px;
 	font-weight: bold;
-	color: #333;
 	margin-left: 25px;
 }
 .exh-header .h-search {
@@ -56,12 +49,6 @@
 	float: left;
 	margin-left: 13px;
 }
-.exh-header .hst-act {
-	color: #ff2200;
-}
-.exh-header .hst-line {
-	color: #e6e6e6;
-}
 .hs-main {
 	float: left; 
 	width:750px;
@@ -71,9 +58,8 @@
 	width: 518px;
 	height: 36px;
 	line-height: 38px;
-	border: 2px solid #e3e3e3;
+	border-width: 2px;
 	border-right: none;
-	background: #FFF;
 	float: left;
 	padding-left: 10px;
 }
@@ -83,31 +69,19 @@
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	background: #ff5e00;
-	color: #ffffff;
 	float: left;
 	font-size: 14px;
-}
-.hs-main a.sousou:hover {
-	text-decoration: none;
-	background: #f65b01;
 }
 .hs-main a.publish {
 	display: inline-block;
 	width: 98px;
 	height: 38px;
 	line-height: 38px;
-	border: 1px solid #e3e3e3;
+	border-width: 1px;
 	text-align: center;
-	background: #ffffff;
-	color: #545454;
 	float: left;
 	margin-left: 20px;
 	font-size: 14px;
-}
-.hs-main a.publish:hover {
-	text-decoration: none;
-	color: #ff5e00;
 }
 /* ------------------------------------- exh-header end ------------------------------------- */
 
@@ -115,46 +89,33 @@
 .exh-info {
 	padding-top: 49px;
 	height: 212px;
-	background: url(../images/exhibitionBg.png) no-repeat top center fixed;
 	position: relative;
 }
 .exh-info-hd {
-	border: 1px solid rgba(255, 255, 255, .4);
+	border-width: 1px;
 	height: 114px;
 	position: relative;
 }
 .exh-info-hd .title {
-	background: #27292f;
 	position: absolute;
 	top: -28px;
 	left: 22px;
 	padding: 0 50px 0 12px;
 }
 .exh-info-hd .title h2 {
-	color: #fff;
 	font-size: 32px;
-	font-weight: bold;
 }
 .exh-info-hd .title span {
 	color: #4ec9ff;
-	font-size: 12px;
-    margin-top: 17px;
-    margin-left: 10px;
 }
 .exh-info-hd .title i {
 	width: 29px;
 	height: 32px;
-	background-image: url(../images/icon.png);
 	background-repeat: no-repeat;
-	vertical-align: middle;
 	margin-top: 11px;
 	margin-left: 18px;
 }
-.exh-info-hd .title i.i-exh {
-	background-position: 0 -80px;
-}
 .exh-info-main {
-	color: #fff;
 	margin-top: 40px;
 	margin-left: 32px;
 	width: 486px;
@@ -170,7 +131,7 @@
 .exh-info-detail {
 	width: 422px;
 	height: 69px;
-	background: url(../images/infoBg.png) no-repeat center;
+	background-repeat: no-repeat;
 }
 .exh-info-det-item {
 	text-align: center;
@@ -190,33 +151,21 @@
 }
 .exh-info-det-item .txt {
 	font-size: 20px;
-	color: #fff;
-	font-weight: bold;
 }
 .exh-info-det-item .txt span {
 	font-size: 12px;
-	vertical-align: top;
 }
 .exh-info-det-item .label {
 	font-size: 12px;
-	color: #a3cbff;
 }
 .exh-info-concat {
 	display: inline-block;
 	padding: 0 24px;
-	background: #0a74ff;
-	border-radius: 16px;
-	color: #fff;
 	font-size: 14px;
 	height: 32px;
 	line-height: 32px;
 	margin-top: 20px;
 	margin-left: 30px;
-	-webkit-transition: all .3s ease-in;
-	transition: all .3s ease-in;
-}
-.exh-info-concat:hover {
-	background-color: #0d68e0;
 }
 .exh-nav {
 	position: absolute;
@@ -225,26 +174,17 @@
 	right: 0;
 	height: 45px;
 	line-height: 45px;
-	background: #262a2e;
 }
 .exh-nav li {
 	float: left;
 }
 .exh-nav-1 li a {
-	color: #fff;
 	font-size: 16px;
-	font-weight: bold;
 	padding: 0 26px;
 	display: block;
-	-webkit-transition: all .3s ease-in;
-	transition: all .3s ease-in;
 }
 .exh-nav-1 li {
 	margin-right: 10px;
-}
-.exh-nav-1 li a:hover,
-.exh-nav-1 li.cur a {
-	background: #0a74ff;
 }
 .exh-nav-2 {
 	margin-right: 8px;
@@ -253,13 +193,7 @@
 	margin: 0 12px;
 }
 .exh-nav-2 li a {
-	color: #ccc;
 	font-size: 14px;
-	-webkit-transition: all .3s ease-in;
-	transition: all .3s ease-in;
-}
-.exh-nav-2 li a:hover {
-	color: #fff;
 }
 /* ------------------------------------- exh-info end ------------------------------------- */
 
